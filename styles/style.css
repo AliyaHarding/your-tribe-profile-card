@@ -7,7 +7,21 @@
 /* Dit verwijst naar het <html> element. De <html> krijgt een lichtgele achtergrond. */
 
 html {
-  background:lightyellow;
+  background:linear-gradient(-45deg, rgb(187, 157, 207), #fe7daf, #6fd9ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* BODY */
@@ -44,7 +58,7 @@ article {
   
   border-radius: 1rem;
   background: rgb(0 239 255);
-  background: linear-gradient(0deg, rgb(0 239 255) 40%, #4e54c8 100%);
+  background: linear-gradient(0deg, rgb(172, 221, 203) 40%, #4e54c8 100%);
   box-shadow: 0 0 20px 20px rgb(0 0 0 / .1);
   
   transition: .25s;
@@ -64,7 +78,7 @@ header {
 h1 {
   margin: 2rem 0 1rem 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
   
-  color: rgb(0 239 255); /* De tekst kleur wordt in rgb() bepaald. */
+  color: rgb(202, 134, 208); /* De tekst kleur wordt in rgb() bepaald. */
 }
 
 /* P */
@@ -140,7 +154,7 @@ img {
   width: 10em;
   height: auto;
   
-  border: 5px solid #fff;
+  border: 5px solid rgb(222, 168, 227);
   border-radius: 10em;
   box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
   
@@ -168,7 +182,7 @@ dl {
   padding: 5rem 0 3rem;
   
   text-align: center;
-  background: rgb(255 255 255);
+  background: rgb(156, 206, 249);
 
   dt {
     margin-top: .25rem;
