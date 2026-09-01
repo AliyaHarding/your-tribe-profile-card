@@ -87,5 +87,15 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: -10rem;
+	margin-top: -18rem;
+	gap: 2rem;
+}
+
+hr{
+	width: 100%;
+	border: 1px solid black;
+}
+
+.border{
+	border: 2px solid black;
 }
