@@ -66,12 +66,18 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	top: 1rem;
+	top: -3rem;
 }
 .pfImage {
   width: 10em;
   height: auto;
   
-  border: 5px solid rgb(222, 168, 227);
+  border: 5px solid #7acdd7;
   border-radius: 10em;
+}
+.pfBannerImage{
+	width: 30em;
+	height: auto;
+	position: relative;
+	top: -6rem;
 }
