@@ -120,4 +120,14 @@ progress::-webkit-progress-value{
 
 progress::-webkit-progress-bar{
 	background-color: rgb(234, 218, 173);
+	border: none;
+	border-radius: 0;
+}
+
+progress {
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: none;
+    border-radius: 0;
 }
