@@ -86,10 +86,17 @@ header {
 main{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	margin-top: -18rem;
 	gap: 2rem;
 	padding: 0 20px 0 20px;
+}
+
+.skills{
+	width: 55%;
+}
+
+.hobbies{
+	width: 55%;
 }
 
 hr{
