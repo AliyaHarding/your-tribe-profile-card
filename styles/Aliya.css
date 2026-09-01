@@ -89,6 +89,7 @@ main{
 	align-items: center;
 	margin-top: -18rem;
 	gap: 2rem;
+	padding: 0 20px 0 20px;
 }
 
 hr{
@@ -110,4 +111,13 @@ h3{
 ul{
 	list-style-type: square;
 	direction: rtl;
+}
+
+/* skills section */
+progress::-webkit-progress-value{
+	background-color: black;
+}
+
+progress::-webkit-progress-bar{
+	background-color: rgb(234, 218, 173);
 }
