@@ -94,8 +94,20 @@ main{
 hr{
 	width: 100%;
 	border: 1px solid black;
+	margin-top: 0;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .border{
 	border: 2px solid black;
+}
+
+/* hobbies section */
+ul{
+	list-style-type: square;
+	direction: rtl;
 }
