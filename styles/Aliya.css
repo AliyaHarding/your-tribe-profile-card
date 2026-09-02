@@ -138,3 +138,9 @@ progress {
     border: none;
     border-radius: 0;
 }
+
+/* Footer styling */
+.quote{
+	text-align: center;
+}
+
