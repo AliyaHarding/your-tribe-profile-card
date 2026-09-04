@@ -8,18 +8,6 @@ html {
   background-position: center;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -142,4 +130,26 @@ progress {
 /* Footer styling */
 section.quote{
 	text-align: center;
+}
+
+/* btn styling */
+.btn {
+	position: relative;
+	top: -27em;
+	left: -17em;
+	background-color: rgb(234, 218, 173);
+	border: none;
+	padding: 15px 20px 15px 20px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: rgb(227, 203, 139);
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }

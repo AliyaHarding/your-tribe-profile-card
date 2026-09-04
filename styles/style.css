@@ -263,3 +263,24 @@ body.is-expanded dl dd {
 body.is-expanded img {
   width: 15em;
 }
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn {
+	position: relative;
+	top: -27em;
+	right: -47em;
+	background-color: rgb(234, 218, 173);
+	border: none;
+	padding: 15px 20px 15px 20px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: rgb(227, 203, 139);
+
+}
