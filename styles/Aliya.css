@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image:url(../assets/ChatGPT\ Image\ Sep\ 1\,\ 2026\ at\ 05_43_39\ PM.png);
+  background-image:url(../assets/mapImage.png);
   background-size: cover;
   background-position: center;
 }
@@ -37,7 +37,7 @@ article {
 
 header {
   display: flex;
-  background-image: url(../assets/Ritzy_Blog_Banner_19_83c095923b.png);
+  background-image: url(../assets/sxmBanner.png);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   background-size: cover;
